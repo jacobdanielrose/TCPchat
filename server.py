@@ -7,7 +7,7 @@ import socket
 import threading
 
 # Connection Data
-host = '127.0.0.1'
+host = '192.168.178.66'  # TODO: automate to detect IP-address of computer.
 port = 5555
 
 

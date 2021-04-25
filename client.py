@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     # Connecting to the server
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client.connect(('127.0.0.1', 5555))
+    client.connect(('192.168.178.66', 5555))  # TODO: automate to detect IP-address of computer.
 
     # starting threads for listening and writing
     receive_thread = threading.Thread(target=receive)
